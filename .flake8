@@ -1,0 +1,3 @@
+[flake8]
+exclude = venev
+ignore = 581
