@@ -48,5 +48,4 @@ class MovieStatsView(views.APIView):
 
         return response.Response(
             data=serializer.data,
-            status=status.HTTP_200_OK,
-        )
+            status=status.HTTP_200_OK,)
